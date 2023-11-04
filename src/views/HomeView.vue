@@ -15,6 +15,9 @@ export default{
     },
     onSuccessSendFile(response, uploadFile, uploadFiles){
       console.log(response);
+      if(response.message === 'success'){
+        ElMessage('发送成功!')
+      }
     }
   }
 }
