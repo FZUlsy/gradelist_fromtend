@@ -8,6 +8,7 @@
             :limit="1"
             :accept="'xlsx'"
             :before-upload="handleFilePreview"
+            :auto-upload="true"
           >
             <el-icon class="el-icon-upload"></el-icon>
             <div class="el-upload__text">
